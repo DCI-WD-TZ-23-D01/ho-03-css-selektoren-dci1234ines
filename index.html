@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detektivaufgaben</title>
+
+    <style>
+        #herrenhaus {
+            justify-content: space-between;
+            width: 818px;
+            height: 306px;
+            border: 3px solid grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+        }
+
+        .etage
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 2px solid grey;
+            width: 266px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .raum
+        {
+            box-sizing: border-box;
+            position: relative;
+            border: 2px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        #wohnzimmer
+        {
+            height: 200px;
+            width: 166px;
+        }
+        #esszimmer
+        {
+            width: 90px;
+            height: 200px;
+        }
+        #küche
+        {
+            height: 90px;
+            width: 50px;
+        }
+        #bibliothek
+        {
+            height: 90px;
+            width: 206px;
+        }
+        #schlafzimmer
+        {
+            width: 100%;
+            height: 220px;
+        }
+        #arbeitszimmer,
+        #badezimmer
+        {
+            height: 70px;
+            width: 128px;
+        }
+        #dachboden
+        {
+            height: 100%;
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Detektivaufgaben</h1>
+
+    <h2>Das Herrenhaus</h2>
+    <div id="herrenhaus">
+        <div class="etage" id="etage-1">
+            <div class="raum" id="wohnzimmer">Wohnzimmer</div>
+            <div class="raum" id="esszimmer">Esszimmer</div>
+            <div class="raum" id="bibliothek">Bibliothek</div>
+            <div class="raum" id="küche">Küche</div>
+        </div>
+        <div class="etage" id="etage-2">
+            <div class="raum" id="schlafzimmer">Schlafzimmer</div>
+            <div class="raum" id="arbeitszimmer">Arbeitszimmer</div>
+            <div class="raum" id="badezimmer">Badezimmer</div>
+        </div>
+        <div class="etage" id="etage-3">
+            <div class="raum" id="dachboden">Dachboden</div>
+        </div>
+    </div>
+
+    <!-- Liste für Charaktere -->
+    <h2>Charaktere</h2>
+    <ul id="charaktere">
+        <li>Sir Henry</li>
+        <li>Miss Scarlett</li>
+        <li>Professor Plum</li>
+        <li>Mrs. Peacock</li>
+        <li>Colonel Mustard</li>
+        <li>Mrs. White</li>
+    </ul>
+
+    <!-- Liste für Gegenstände -->
+    <h2>Gegenstände</h2>
+    <ul id="gegenstaende">
+        <li>Bratpfanne</li>
+        <li>Messer</li>
+        <li>Giftflasche</li>
+        <li>Kerzenleuchter</li>
+        <li>Rohrzange</li>
+        <li>Seil</li>
+    </ul>
+
+    <!-- Liste für Begebenheiten -->
+    <h2>Begebenheiten</h2>
+    <ul id="begebenheiten">
+        <li>Verhängnisvolle Affäre</li>
+        <li>Geheimen Verschwörung</li>
+        <li>Familienstreit</li>
+        <li>Erpressung</li>
+        <li>Liebesintrige</li>
+        <li>Finanzielle Krise</li>
+    </ul>
+</body>
+
+</html>
