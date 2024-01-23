@@ -1,1 +1,57 @@
+#wohnzimmer {
+    background-color: red;}
+#charaktere li:nth-child(2) {
+    color: red;
+}
+#gegenstaende li:nth-child(2) {
+    color: red;
+}
+#begebenheiten li:nth-child(1) {
+    color: red;
+}
 
+#bibliothek {
+    background-color: rgb(147, 245, 90);
+}
+#charaktere li:nth-child(5) {
+    color: rgb(147, 245, 90);
+}
+#gegenstaende li:nth-child(3) {
+    color: rgb(147, 245, 90);
+}
+#begebenheiten li:nth-child(3) {
+    color: rgb(147, 245, 90);
+}
+
+#schlafzimmer {
+    background-color:turquoise;
+}
+#charaktere li:nth-child(4) {
+    color: turquoise;
+}
+#gegenstaende li:nth-child(4) {
+    color: turquoise;
+}
+#begebenheiten li:nth-child(5) {
+    color: turquoise;
+}
+
+#küche {
+    background-color:orange;
+}
+#charaktere li:nth-child(3) {
+    color: orange;}
+#gegenstaende li:nth-child(6) {
+    color: orange;}
+#begebenheiten li:nth-child(2) {
+    color: orange;}
+
+#dachboden {
+    background-color: pink;
+}
+#charaktere li:nth-child(6) {
+    color:pink;}
+#gegenstaende li:nth-child(5) {
+    color:pink;}
+#begebenheiten li:nth-child(4) {
+    color:pink;}
